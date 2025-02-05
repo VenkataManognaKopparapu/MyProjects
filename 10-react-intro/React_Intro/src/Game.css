@@ -1,0 +1,70 @@
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: stretch;
+    height: 100%; 
+    position: relative;
+}
+  
+.game p {
+    font-weight: 600;
+    color: #444;
+}
+  
+.game input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+.game input:focus {
+    border-color: #5b9bd5;
+    outline: none;
+    box-shadow: 0 0 5px rgba(91, 155, 213, 0.3);
+}
+  
+  
+.game button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #5b9bd5;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: auto; 
+}
+  
+.game button:hover {
+    background-color: #4a89c5;
+}
+  
+.message {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.game .logout-button {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    background-color: #d9534f; 
+    font-size: 0.9rem;
+}
+  
+.game .logout-button:hover {
+    background-color: #c9302c; 
+}

@@ -1,0 +1,9 @@
+.animal-list {
+    border: 5px solid #ffcc00;
+    padding: 40px;
+    list-style-type: "\1F431";
+    margin-bottom: 10px;
+}
+.animal-item {
+    margin-bottom: 20px;
+}
